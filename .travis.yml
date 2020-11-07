@@ -10,7 +10,7 @@ addons:
   sonarcloud:
     organization: "bassamaz-github" # the key of the org you chose at step #3
     token:
-      secure: 7ca2e361a1e0b79c56e4078a79f00e1b36b4dc7b # encrypted value of your token
+      secure: "Jgi1cC1N7mdXiNCBqPkBnG+csqtrekP2fLqrM9CG23x46MudzX6p9EZMPDkOQWc0hZUsXedx7qHlQSrUgTqMilUzsELcps46kiZnbpbsjy6dCJFC+aKhkXaBevFC0E+Ly05Ut0Um8oxozDNtVkeAwZaNhFlTnZ5Sfd9htdjNKjI3MV0BGHworQrdRuuAHmWdbwCWpzTXrkZvZckl/ZmBoDHwzuI0rIbcpFRCMGhPpq4ijBlZwLgOUPg5ms6Ydt5fjKurm2isWjH3WeatalcHg9Ii0dMQh4OzqWD/pUn0UjJSCPP9ABvEePo2/b4xwc1CmsYLm85lxzEFsNAfDgwaTusDnXazWdKbMDnQYr7fpc+sOjLDH1kuZcoGVeYJjK5tMa2oyRxWn3nOqPZJzc7aptOQ73zSgn+PkNMkldd7nEuhSQ8aR/Kr3vwdeF66lFL3ECctcqXtDARGWUasuFjjddCBq52LQ4zPtK7XdLflE5PZEDJ/xulbzPbmFnJUK9zpLvxZhtlljdhda0f511Mx9kU2skjJZx1PJNPvCjJGbe4Q+pUwhN7iOBgZOWqm7mKlAo+/j1DYMG+CwFKToL5/iypV2J8UxPBC5M+MnzoRyy/BQ6f2botvNYZBLn6m7l/2TAPC917cyJjBniOO7cAErFEf15wuOW7/j9HoFGQE27U=" # encrypted value of your token
 
 
 services:
