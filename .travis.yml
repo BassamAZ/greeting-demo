@@ -15,7 +15,7 @@ services:
 before_install:
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
 script:
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=BassamAZ_greeting-demo
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.scanner.force-deprecated-java-version=true -Dsonar.projectKey=BassamAZ_greeting-demo
 - docker build -t $DOCKER_USERNAME/greeting-service:$TRAVIS_BUILD_ID .
 - docker push $DOCKER_USERNAME/greeting-service:$TRAVIS_BUILD_ID
 after_success:
